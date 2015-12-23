@@ -1,0 +1,5 @@
+[MASTER]
+
+persistent=yes
+disable=filter-builtin-not-iterating,import-star-module-level,range-builtin-not-iterating,coerce-builtin,input-builtin,dict-iter-method,dict-view-method,xrange-builtin,old-division,file-builtin,nonzero-method,backtick,apply-builtin,unpacking-in-except,next-method-called,reload-builtin,suppressed-message,basestring-builtin,no-absolute-import,zip-builtin-not-iterating,using-cmp-argument,setslice-method,unicode-builtin,standarderror-builtin,old-raise-syntax,getslice-method,old-ne-operator,reduce-builtin,print-statement,buffer-builtin,parameter-unpacking,raw_input-builtin,long-suffix,delslice-method,intern-builtin,hex-method,long-builtin,old-octal-literal,useless-suppression,round-builtin,execfile-builtin,oct-method,coerce-method,cmp-method,raising-string,cmp-builtin,metaclass-assignment,indexing-exception,unichr-builtin,map-builtin-not-iterating,too-many-instance-attributes,locally-disabled
+good-names=iTunesLibrary,iTunesPlaylist,iTunesTrack
