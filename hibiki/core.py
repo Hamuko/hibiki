@@ -94,10 +94,7 @@ class Hibiki(object):
                         error_callback(path, error)
                     continue
                 if delete_callback:
-                    data = self.itunes.track_by_persistent_id(track)
-                    if not data:
-                        data = library[track]
-                    delete_callback(data)
+                    delete_callback(library[track])
                 del library[track]
         self.library_data = library
 
